@@ -1,0 +1,198 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.navbar ul li a:hover{
+  color: #3FACE4;
+}
+.navbar ul li a{
+  color: black;
+}
+.home{
+  background-image: url("./public/images/home.jpg");
+  background-position: center;
+  background-size: cover;
+  height:90vh;
+
+}
+.home2 h1{
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 35px;
+  max-width: 444px;
+}
+.home2 p{
+  max-width: 498px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.main_btn{
+  background-color:#3face4 ;
+  color: white;
+}
+.main_btn:hover{
+  background-color: aliceblue;
+  color: #3face4;
+}
+.post1{
+  position: relative;
+  /* width: 30%; */overflow: hidden;
+}
+.c2{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90%;
+  width: 70%;
+ margin-left: 30px;
+ margin-top: 20px;
+ /* margin-right: 20px; */
+  opacity: 0;
+  transition: 5s ease;
+  /* background-color: #000000; */
+  background-color: lightslategray;
+}
+.post:hover .c2{
+  opacity: 1;
+}
+.img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.c3 h5{
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 16px;
+}
+.c3{
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  position: absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.service2 h4{
+  color: black;
+}
+.service2 h4:hover{
+  color: #45ACE4;
+}
+.appointment{
+  background-color:#F9F9FF ;
+}
+.confirm .main_btn{
+  border: 1px solid #3FACE4; 
+}
+.confirm .main_btn:hover{
+  border: 1px solid #3FACE4;
+}
+.blog1 h4{
+  color: black;
+}
+.blog1 h4:hover{
+  color: #3FACE4;
+}
+.blog2 img:hover{
+  transform: scale(1.1);
+}
+.blog2{
+  overflow: hidden;
+}
+.footer-nav li {
+  list-style: none;
+}
+.footer-social .fa-brands{
+  background-color: black;
+  color: #F9F9FF;
+ 
+}
+.footer-social .fa-brands:hover{
+  background-color: #3FACE4;
+}
+.nw-btn{
+  border: #3FACE4;
+}
+.nw-btn:hover{
+  background-color: transparent;
+  border:1px solid #3FACE4;
+}
+.nw1{
+background-color: #2D2D2D;
+}
+
+@media only screen and (min-width:768px){
+  .c2{
+      width: 85%;
+  }
+  
+.a1{
+  margin-top: -50px;
+  margin-bottom: -50px;
+} 
+}
+@media only screen and (min-width:992px){
+.c1 p{
+  max-width: 600px;
+  margin-left: 230px;
+}  
+.f1 p{ 
+  max-width: 600px;
+  margin-left: 230px;
+} 
+.s1 p{
+  max-width: 600px;
+  margin-left: 230px;
+} 
+
+.B1 p{
+  max-width: 600px;
+  margin-left: 230px;
+} 
+}
+
+@media only screen and (min-width:1200px){
+  .about1{
+      margin-top: 50px;
+  }
+  .nw1{
+      width: 300px;
+  }
+}
+
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
